@@ -69,13 +69,13 @@ The client is assumed to know the server's long-term key via other means and dec
 
 <p>At this point, the handshake is complete. The client now sends a padded request to the server, the server replies with an identically padded message and the client finishes by sending an empty message. All these are encrypted and authenticated with NaCl secretbox, as everything since the initial Diffie-Hellman exchange has been.</p>
 
-<p>For details of the higher level protocol, see the <a href="https://github.com/agl/pond/blob/master/protos/pond.proto">protobufs</a>.</p>
+<p>For details of the higher level protocol, see the <a href="https://github.com/tomrittervg/pond/blob/master/protos/pond.proto">protobufs</a>.</p>
 
 <p>It's currently an unanswered question whether timing differences between the home server and other servers will reveal to a network attacker which the user is communicating with and thus when the user is sending messages. Pond sets a random SOCKS5 username in order to request of Tor that different paths be used for every connection but it may be that servers need to delay their replies for a fixed amount of time.</p>
 
 <h4>Key Exchange Details</h4>
 
-<p>Key exchange between two users involves each creating a KeyExchange protobuf (see <a href="https://github.com/agl/pond/blob/master/protos/pond.proto">protobufs</a>). Since Pond servers demand a group signature before accepting a message for delivery, there are no public Pond addresses that can be used to bootstrap a Pond relationship. Rather we currently assume an external, confidential and authentic means for users to exchange KeyExchange messages.</p>
+<p>Key exchange between two users involves each creating a KeyExchange protobuf (see <a href="https://github.com/tomrittervg/pond/blob/master/protos/pond.proto">protobufs</a>). Since Pond servers demand a group signature before accepting a message for delivery, there are no public Pond addresses that can be used to bootstrap a Pond relationship. Rather we currently assume an external, confidential and authentic means for users to exchange KeyExchange messages.</p>
 
 <p>(This may be an important weakness. One obvious answer is to have servers accept, say, 10% of a user's quota of unsigned &lsquo;introduction&rsquo; messages.)</p>
 

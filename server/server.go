@@ -18,9 +18,9 @@ import (
 	"time"
 
 	"github.com/agl/ed25519"
-	"github.com/agl/pond/bbssig"
-	pond "github.com/agl/pond/protos"
-	"github.com/agl/pond/transport"
+	"github.com/tomrittervg/pond/bbssig"
+	pond "github.com/tomrittervg/pond/protos"
+	"github.com/tomrittervg/pond/transport"
 	"github.com/golang/protobuf/proto"
 )
 

@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/agl/pond/client/tpm"
+	"github.com/tomrittervg/pond/client/tpm"
 	"github.com/golang/protobuf/proto"
 )
 

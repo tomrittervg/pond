@@ -9,7 +9,7 @@ import (
 	"net"
 	"testing"
 
-	pond "github.com/agl/pond/protos"
+	pond "github.com/tomrittervg/pond/protos"
 	"golang.org/x/crypto/curve25519"
 )
 

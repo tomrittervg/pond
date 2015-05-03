@@ -18,9 +18,9 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/agl/pond/client/disk"
-	"github.com/agl/pond/client/system"
-	pond "github.com/agl/pond/protos"
+	"github.com/tomrittervg/pond/client/disk"
+	"github.com/tomrittervg/pond/client/system"
+	pond "github.com/tomrittervg/pond/protos"
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/crypto/ssh/terminal"
 )

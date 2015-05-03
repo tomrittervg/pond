@@ -11,7 +11,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	pond "github.com/agl/pond/protos"
+	pond "github.com/tomrittervg/pond/protos"
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/crypto/nacl/secretbox"
 )

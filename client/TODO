@@ -28,7 +28,7 @@ Add an abort command for outgoing messages.
 Add a delete command for the outgoing messages.
 Document the Pond Key Exchange blob:
 
-  https://github.com/agl/pond/blob/master/protos/pond.proto#L161
+  https://github.com/tomrittervg/pond/blob/master/protos/pond.proto#L161
 
 Show timer for next fetch
 Confirm password on CLI when it is set for the first time

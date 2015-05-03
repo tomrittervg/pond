@@ -21,7 +21,7 @@ title: Pond
   <span style="border: grey 3px solid; border-radius: 5px; padding: 8px;"><a href="user.html">User Guide</a> (<a href="user-cli.html">for CLI</a>)</span>
   <a style="border: grey 3px solid; border-radius: 5px; padding: 8px;" href="threat.html">Threat Model</a>
   <a style="border: grey 3px solid; border-radius: 5px; padding: 8px;" href="tech.html">Technical Details</a>
-  <a style="border: grey 3px solid; border-radius: 5px; padding: 8px;" href="https://github.com/agl/pond">Source Code</a>
+  <a style="border: grey 3px solid; border-radius: 5px; padding: 8px;" href="https://github.com/tomrittervg/pond">Source Code</a>
 </p>
 
 <p>&nbsp;</p>
@@ -38,7 +38,7 @@ title: Pond
 cd
 mkdir gopkg
 export GOPATH=$HOME/gopkg
-go get github.com/agl/pond/client
+go get github.com/tomrittervg/pond/client
 $GOPATH/bin/client</pre>
 
 <h5>Debian Wheezy and Ubuntu 12.04</h5>
@@ -59,7 +59,7 @@ mkdir $GOPATH
 alias pond-build='sudo bash -c "sudo apt-get update &amp;&amp; \
 apt-get install -y -t testing golang &amp;&amp; \
 apt-get install -y gcc git mercurial libgtk-3-dev libgtkspell-3-dev libtspi-dev trousers" &amp;&amp; \
-go get -u -tags ubuntu github.com/agl/pond/client &amp;&amp; \
+go get -u -tags ubuntu github.com/tomrittervg/pond/client &amp;&amp; \
 echo "Success." || echo "Sorry, something went wrong."'
 alias pond-install-deps='sudo apt-get install libtspi1 libgtkspell-3-0'
 alias pond='$GOPATH/bin/client'
@@ -90,7 +90,7 @@ cd
 export PATH=$PATH:$HOME/go/bin
 mkdir gopkg
 export GOPATH=$HOME/gopkg
-go get github.com/agl/pond/client
+go get github.com/tomrittervg/pond/client
 $GOPATH/bin/client</pre>
 
 <h5>Arch</h5>
@@ -99,7 +99,7 @@ yaourt -S trousers mercurial tor go
 cd
 mkdir gopkg
 export GOPATH=$HOME/gopkg
-go get github.com/agl/pond/client
+go get github.com/tomrittervg/pond/client
 systemctl start tor.service
 $GOPATH/bin/client
 </pre>
@@ -139,7 +139,7 @@ export PKG_CONFIG_PATH=/opt/X11/lib/pkgconfig:/usr/local/lib/pkgconfig:$PKG_CONF
 // You need to also add these to your ~/.profile file if you want to run pond again after reboot, unless you want to manually apply the settings each time you run pond.
 
 // Finally, install pond:
-go get github.com/agl/pond/client
+go get github.com/tomrittervg/pond/client
 // now `client` should be in your path
 </pre>
 
@@ -151,7 +151,7 @@ go get github.com/agl/pond/client
 brew install go
 export GOPATH=$HOME/gopkg
 export PATH=$PATH:$GOPATH/bin
-go get -tags nogui github.com/agl/pond/client
+go get -tags nogui github.com/tomrittervg/pond/client
 alias pond="$GOPATH/bin/client"
 </pre>
 

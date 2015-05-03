@@ -18,8 +18,8 @@ import (
 	"testing"
 	"time"
 
-	panda "github.com/agl/pond/panda"
-	pond "github.com/agl/pond/protos"
+	panda "github.com/tomrittervg/pond/panda"
+	pond "github.com/tomrittervg/pond/protos"
 	"github.com/golang/protobuf/proto"
 )
 
@@ -1437,7 +1437,7 @@ func TestRevoke(t *testing.T) {
 
 	composeMessage(client2, "client1", "test1")
 	// Select the contact before sending because we have previously crashed
-	// in this case. See https://github.com/agl/pond/issues/96.
+	// in this case. See https://github.com/tomrittervg/pond/issues/96.
 	client2.gui.events <- Click{name: client2.contactsUI.entries[0].boxName}
 	client2.AdvanceTo(uiStateShowContact)
 	transmitMessage(client2, false)

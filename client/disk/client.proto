@@ -1,6 +1,6 @@
 package disk;
 
-import "github.com/agl/pond/protos/pond.proto";
+import "github.com/tomrittervg/pond/protos/pond.proto";
 
 // These protobufs are used for serialising the client's state to disk.
 

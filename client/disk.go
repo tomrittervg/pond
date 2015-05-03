@@ -4,9 +4,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/agl/pond/bbssig"
-	"github.com/agl/pond/client/disk"
-	pond "github.com/agl/pond/protos"
+	"github.com/tomrittervg/pond/bbssig"
+	"github.com/tomrittervg/pond/client/disk"
+	pond "github.com/tomrittervg/pond/protos"
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/crypto/curve25519"
 )

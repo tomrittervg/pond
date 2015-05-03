@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	pond "github.com/agl/pond/protos"
+	pond "github.com/tomrittervg/pond/protos"
 	"golang.org/x/crypto/curve25519"
 )
 

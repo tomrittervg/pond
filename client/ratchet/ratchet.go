@@ -12,8 +12,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/agl/pond/client/disk"
-	pond "github.com/agl/pond/protos"
+	"github.com/tomrittervg/pond/client/disk"
+	pond "github.com/tomrittervg/pond/protos"
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/crypto/curve25519"
 	"golang.org/x/crypto/nacl/secretbox"

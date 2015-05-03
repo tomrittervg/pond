@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/agl/pond/client/system"
+	"github.com/tomrittervg/pond/client/system"
 )
 
 func main() {

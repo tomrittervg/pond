@@ -15,9 +15,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/agl/pond/client/disk"
-	"github.com/agl/pond/panda"
-	pond "github.com/agl/pond/protos"
+	"github.com/tomrittervg/pond/client/disk"
+	"github.com/tomrittervg/pond/panda"
+	pond "github.com/tomrittervg/pond/protos"
 	"github.com/golang/protobuf/proto"
 )
 

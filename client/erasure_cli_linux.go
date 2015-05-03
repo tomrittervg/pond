@@ -5,8 +5,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/agl/pond/client/disk"
-	"github.com/agl/pond/client/tpm"
+	"github.com/tomrittervg/pond/client/disk"
+	"github.com/tomrittervg/pond/client/tpm"
 )
 
 func (c *cliClient) createErasureStorage(pw string, stateFile *disk.StateFile) error {

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/agl/pond/client/disk"
-	"github.com/agl/pond/client/tpm"
+	"github.com/tomrittervg/pond/client/disk"
+	"github.com/tomrittervg/pond/client/tpm"
 )
 
 func (c *guiClient) createErasureStorage(pw string, stateFile *disk.StateFile) error {

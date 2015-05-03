@@ -3,7 +3,7 @@
 package main
 
 import (
-	"github.com/agl/pond/client/disk"
+	"github.com/tomrittervg/pond/client/disk"
 )
 
 func (c *client) createErasureStorage(pw string, stateFile *disk.StateFile) error {

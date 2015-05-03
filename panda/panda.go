@@ -14,14 +14,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/agl/pond/panda/rijndael"
+	"github.com/tomrittervg/pond/panda/rijndael"
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/crypto/curve25519"
 	"golang.org/x/crypto/hkdf"
 	"golang.org/x/crypto/nacl/secretbox"
 	"golang.org/x/crypto/scrypt"
 
-	panda_proto "github.com/agl/pond/panda/proto"
+	panda_proto "github.com/tomrittervg/pond/panda/proto"
 )
 
 const (

@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/agl/pond/client/disk"
+	"github.com/tomrittervg/pond/client/disk"
 	"github.com/golang/protobuf/proto"
 )
 
